@@ -1,0 +1,50 @@
+/*
+ Theme Name:   Septera Child
+ Theme URI:    http://example.com/twenty-fifteen-child/
+ Description:  Septera Child Theme
+ Author:       John Doe
+ Author URI:   http://example.com
+ Template:     septera
+ Version:      1.0.0
+ License:      GNU General Public License v2 or later
+ License URI:  http://www.gnu.org/licenses/gpl-2.0.html
+ Tags:         light, dark, two-columns, right-sidebar, responsive-layout, accessibility-ready
+ Text Domain:  septera-child
+*/
+
+.lp-staticslider h2.staticslider-caption-title {
+    color: red;
+}
+
+.container {
+    float: left;
+    display: inline-block;
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.left {
+    background-color: yellow;
+}
+
+.right {
+    background-color: grey;
+}
+
+.clear {
+    clear: both;
+}
+
+#main.main {
+    min-height: 0;
+    padding: 0;
+}
+
+#main_ul li.active {
+    color: red;
+}
+
+#colophon {
+    display: none;
+}

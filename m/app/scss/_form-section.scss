@@ -1,0 +1,40 @@
+@import "variables";
+@import "mixins";
+
+#form-section {
+    background-image: url('../img/background.png');
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+    
+    .form-section-right {
+        @include right-col-elements;
+        top: 25%;
+    }
+    
+    #main-form {
+        background-color: $main-color;
+        
+        fieldset {
+            border-style: none;
+            
+            input:not([type='submit']), textarea {
+               @include inputs;
+                margin-bottom: 10px;
+                font-family: $main-font;
+            }
+            
+            input[type="submit"] {
+                @include inputs-submit;
+                margin-bottom: 10px;
+                transition: all 0.3s;
+                
+                &:hover {
+                    background-color: #FFFFFF;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

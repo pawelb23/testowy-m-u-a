@@ -1,0 +1,160 @@
+header {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+    padding: 20px 0;
+    z-index: 10;
+}
+
+header #main-logo {
+    display: inline-block;
+    float: left;
+    margin-left: 30px;
+}
+
+header #main-logo h1 {
+    display: inline-block;
+    margin: 0;
+}
+
+header #main-logo .fa {
+    font-size: 2em;
+    float: left;
+    margin-right: 10px;
+    color: #ecd407;
+    line-height: 43px;
+}
+
+header .header-contact {
+    display: inline-block;
+    float: right;
+    width: 300px;
+}
+
+header .header-contact .fa {
+    font-size: 2em;
+    float: left;
+    margin-right: 10px;
+    line-height: 45px;
+}
+
+header .header-contact span {
+    display: block;
+}
+
+header .header-contact span.call {
+    font-size: 0.8em;
+    line-height: 22px;
+}
+
+header .header-contact span.phone {
+    font-size: 1.2em;
+}
+
+#form-section {
+    background-image: url("../img/background.png");
+    background-position: top;
+    background-size: cover;
+    height: 100vh;
+    color: #FFFFFF;
+}
+
+#form-section .form-section-right {
+    position: absolute;
+    right: 8%;
+    width: 370px;
+    top: 25%;
+}
+
+#form-section #main-form {
+    background-color: #001d8a;
+}
+
+#form-section #main-form fieldset {
+    border-style: none;
+}
+
+#form-section #main-form fieldset input:not([type='submit']), #form-section #main-form fieldset textarea {
+    padding: 10px;
+    width: 100%;
+    margin-bottom: 10px;
+    font-family: "Open Sans", sans-serif;
+}
+
+#form-section #main-form fieldset input[type="submit"] {
+    padding: 20px;
+    background-color: #ecd407;
+    font-size: 1.2em;
+    font-weight: 700;
+    border: 0px solid #FFFFFF;
+    margin-bottom: 10px;
+    transition: all 0.3s;
+}
+
+#form-section #main-form fieldset input[type="submit"]:hover {
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #001d8a;
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+}
+
+header, section {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 100%;
+}
+
+.yellow {
+    color: #ecd407;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}
+
+footer {
+    background-color: #292929;
+    padding: 50px 0;
+    color: #FFFFFF;
+}
+
+footer .phone-footer {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+footer .phone-footer .fa {
+    background-color: #F4B939;
+    color: #000000;
+    height: 50px;
+    width: 50px;
+    font-size: 25px;
+    text-align: center;
+    line-height: 50px;
+    display: block;
+    margin: auto;
+    margin-bottom: 10px;
+}
+
+footer p {
+    text-align: center;
+    font-size: 0.8em;
+}

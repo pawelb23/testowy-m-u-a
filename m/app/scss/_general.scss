@@ -1,0 +1,33 @@
+@import "variables";
+@import "mixins";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: $main-color;
+    margin: 0;
+    font-family: $main-font;
+}
+
+header, section {
+    width: 100%;
+}
+
+.container {
+    width: 1170px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    height: 100%;
+}
+
+.yellow {
+    color: $yellow-color;
+}
+
+.col-1-2 {
+    width: 50%;
+    float: left;
+}

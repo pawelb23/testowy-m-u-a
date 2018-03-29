@@ -1,0 +1,51 @@
+header {
+    position: absolute;
+    margin: auto;
+    left: 0;
+    right: 0;
+    top: 0;
+    color: #FFFFFF;
+    padding: 20px 0;
+    z-index: 10;
+        
+    #main-logo {
+        display: inline-block;
+        float: left;
+        margin-left: 30px;
+        
+        h1 {
+            display: inline-block;
+            margin: 0;
+        }
+        
+        .fa {
+            @include fa-header;
+            color: $yellow-color;
+            line-height: 43px;
+        }
+    }
+    
+    .header-contact {
+        display: inline-block;
+        float: right;
+        width: 300px;
+        
+        .fa {
+            @include fa-header;
+            line-height: 45px;
+        }
+        
+        span {
+            display: block;
+            
+            &.call {
+                font-size: 0.8em;
+                line-height: 22px;
+            }
+            
+            &.phone {
+                font-size: 1.2em;
+            }
+        }
+    }
+}
